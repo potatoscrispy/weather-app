@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body class="bg-color1 main h-100">
+    <div class="bg-color2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container my-5">
+                <a class="navbar-brand color1 d-flex g-1 gx-3" href="#">
+                    <img src="images/logo.png" class="h-100" alt="logo">
+                    <div class="d-flex flex-column ms-3">
+                        <h4 class="fs-6 fw-bold mb-0">Weather</h4>
+                        <span class="fs-ss">tagline goes here</span>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-5 mt-lg-auto" id="navbarNav">
+                    <ul class="navbar-nav ms-auto bg-color1 bg-lg-none">
+                        <li class="nav-item text-center">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container content">
+        <div class="input-container">
+            <input id="findinput" type="text" class="find-input w-100 h-100" placeholder="Find your location..."
+                aria-label="Find your location" aria-describedby="find-location-btn">
+            <a id="findbtn" class="btn btn-primary btn-color5 findbtn" type="button">Find</a>
+        </div>
+        <div id="myData" class="flex-column d-flex gap-lg-0 gap-4 flex-lg-row mb-5">
+        </div>
+    </div>
+    <footer class="bg-color1 bottom-0 w-100 overflow-hidden">
+        <div class="container">
+            <div class="d-flex flex-lg-row flex-column">
+                <div class="input-container mb-3">
+                    <input id="subscribeinput" type="text" class="find-input w-100 h-100"
+                        placeholder="Enter your email to subscribe..." aria-label="subscribe"
+                        aria-describedby="subscribe-btn">
+                    <a id="subscribebtn" class="btn btn-primary btn-color5 findbtn" type="button">Subscribe</a>
+                </div>
+                <div class="social-icons col-4 d-flex mb-lg-3 align-self-lg-end">
+                    <a href="#" class="ms-3 btn btn-light  rounded-pill">
+                        <i class="fs-3 fa-brands fa-facebook color1"></i>
+                    </a>
+                    <a href="#" class="ms-3 btn btn-light  rounded-pill">
+                        <i class="fs-3 fa-brands fa-twitter color1"></i>
+                    </a>
+                    <a href="#" class="ms-3 btn btn-light  rounded-pill">
+                        <i class="fs-3 fa-brands fa-google-plus color1"></i>
+                    </a>
+                    <a href="#" class="ms-3 btn btn-light  rounded-pill">
+                        <i class="fs-3 fa-brands fa-pinterest icon-link color1"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="my-4">Copyright 2024 Hawarii. Designed by Hawary. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

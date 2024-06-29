@@ -1,0 +1,202 @@
+:root {
+  --color1: #254336;
+  --color2: #6b8a7a;
+  --color3: #b7b597;
+  --color4: #dad3be;
+  --color5: #1ac5e0;
+  --color6: #1ac6e0d8;
+  --color7: hsl(54, 21%, 90%);
+}
+.main {
+  background-image: url(../images/banner.png);
+  background-size: contain;
+  background-position: center;
+  background-clip: border-box;
+}
+.content {
+  min-height: 70vh;
+}
+* {
+  color: var(--color4);
+}
+.bg-lg-none {
+  @media (min-width: 992px) {
+    background-color: transparent !important;
+  }
+}
+
+.input {
+  /* border: 0.1rem solid var(--color3); */
+  /* padding: 0.3rem 0.6rem; */
+  /* border-radius: 0.2rem; */
+  /* margin-bottom: 1rem; */
+  /* font-size: 1.1rem; */
+  /* background: inherit; */
+  caret-color: var(--color1);
+  color: var(--color1);
+}
+/* ::placeholder {
+  color: var(--color3);
+  opacity: 0.6;
+} */
+.font-1 {
+  font-family: "Rock Salt", cursive;
+}
+.font-2 {
+  font-family: "Permanent Marker", cursive;
+}
+.fs-lg {
+  font-size: 5rem;
+}
+input:focus {
+  outline: 0;
+  /* box-shadow: 0 0 0 0.25rem var(--color1); */
+  /* background-color: var(--color1); */
+}
+.btn-color4 {
+  --bs-btn-color: var(--color3);
+  --bs-btn-hover-color: var(--color3);
+  --bs-btn-bg: var(--color4);
+  --bs-btn-hover-bg: var(--color5);
+}
+.btn-color5 {
+  --bs-btn-bg: var(--color5);
+  --bs-btn-hover-bg: var(--color6);
+  border: none;
+}
+.table-color1 {
+  --bs-table-color: var(--color5);
+  --bs-table-bg: var(--color1);
+}
+.table-color2 {
+  --bs-table-color: var(--color5);
+  --bs-table-bg: var(--color2);
+}
+.table-color4 {
+  --bs-table-color: var(--color2);
+  --bs-table-bg: var(--color4);
+}
+.table-color5 {
+  --bs-table-color: var(--color2);
+  --bs-table-bg: var(--color5);
+}
+
+.bg-color1 {
+  background-color: var(--color1);
+}
+.bg-color2 {
+  background-color: var(--color2);
+}
+.bg-color3 {
+  background-color: var(--color3);
+}
+.bg-color4 {
+  background-color: var(--color4);
+}
+.bg-color5 {
+  background-color: var(--color5);
+}
+.bg-color6 {
+  background-color: var(--color6);
+}
+.bg-color7 {
+  background-color: var(--color7);
+}
+.border-color1 {
+  border-color: var(--color1);
+}
+.border-color2 {
+  border-color: var(--color2);
+}
+.border-color3 {
+  border-color: var(--color3);
+}
+.border-color4 {
+  border-color: var(--color4);
+}
+.border-color5 {
+  border-color: var(--color5);
+}
+.color1 {
+  color: var(--color1);
+}
+.color2 {
+  color: var(--color2);
+}
+.color3 {
+  color: var(--color3);
+}
+.color4 {
+  color: var(--color4);
+}
+.color5 {
+  color: var(--color5);
+}
+.color6 {
+  color: var(--color6);
+}
+.color7 {
+  color: var(--color7);
+}
+
+.fs-s {
+  font-size: 1rem;
+}
+.fs-ss {
+  font-size: 0.7rem;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(37, 67, 54)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: var(--color1);
+  --bs-navbar-hover-color: var(--color5);
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(37, 67, 54)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); */
+}
+.navbar-toggler:hover {
+  border-color: var(--color5);
+  border-radius: 16px;
+  border-width: 1px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  border-radius: 16px;
+}
+.navbar-toggler {
+  border-width: 0;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(1, 156, 216)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.input-container {
+  position: relative;
+  background-color: var(--color2);
+  width: 100%;
+  height: 4rem;
+  margin: 3rem auto;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+.find-input {
+  padding-left: 15px;
+  background-color: var(--color2);
+  border-width: 0;
+}
+::placeholder {
+  color: var(--color1);
+}
+.input-container .findbtn {
+  position: absolute;
+  right: 12px;
+  top: 10%;
+  height: 80%;
+  width: 7rem;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-umbrella {
+  transform: rotate(0.5rad);
+}
